@@ -82,5 +82,6 @@
 				</executions>
 			</plugin>
 		</plugins>
+		<finalName>hellodocker</finalName>
 	</build>
 </project>

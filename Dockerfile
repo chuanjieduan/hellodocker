@@ -1,6 +1,4 @@
 FROM java:8
-VOLUME /tmp
-ADD hellodocker.jar /tmp/
-WORKDIR /tmp/
+ADD /target/hellodocker.jar hellodocker.jar
 EXPOSE 8080
 CMD ["java", "-jar", "hellodocker.jar"]

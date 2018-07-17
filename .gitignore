@@ -1,4 +1,11 @@
 .classpath
 .project
 .settings/
-/target/
+/target/classes/
+/target/dependency/
+/target/dependency-maven-plugin-markers/
+/target/generated-sources/
+/target/generated-test-sources/
+/target/maven-archiver/
+/target/maven-status/
+/target/test-classes/
