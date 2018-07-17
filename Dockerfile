@@ -1,7 +1,6 @@
 FROM java:8
 VOLUME /tmp
-ARG JAR_FILE
-ADD ${JAR_FILE} app.jar
-RUN bash -c 'touch /app.jar'
+ADD hellodocker.jar /tmp/
+WORKDIR /tmp/
 EXPOSE 8080
-ENTRYPOINT ["java","-Djava.security.egd=file:/dev/./urandom","-jar","/app.jar"]
+CMD ["java", "-jar", "hellodocker.jar"]
