@@ -22,7 +22,6 @@
 	</parent>
 
 	<build>
-		<finalName>hellodocker</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
