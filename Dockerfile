@@ -7,5 +7,5 @@ ADD . $MY_HOME
 RUN mvn clean package
 RUN pwd
 RUN ls target
-COPY /tmp/target/hellodocker-0.0.1-SNAPSHOT.jar app.jar
+COPY target/hellodocker-0.0.1-SNAPSHOT.jar app.jar
 ENTRYPOINT ["java","-jar","app.jar"]
