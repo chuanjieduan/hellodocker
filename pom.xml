@@ -35,9 +35,6 @@
 				<version>1.3.6</version>
 				<configuration>
 					<repository>chuanjieduan/example</repository>
-					<buildArgs>
-						<JAR_FILE>target/${project.build.finalName}.jar</JAR_FILE>
-					</buildArgs>
 					<executions>
 						<execution>
 							<id>default</id>
